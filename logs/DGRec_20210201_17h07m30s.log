@@ -1,0 +1,5 @@
+2021-Feb-01 17:07 [INFO ] Namespace(batch_size=1024, check_epoch=10, dataset='Epinions', device='cuda:0', droprate=0.5, edim=64, emb_reg=0.0001, l2rg=0.0005, lr=0.01, lr_decay_rate=0.75, lr_gamma=0.001, max_epochs=200, model='DGRec', nbr_maxlen=20, num_workers=10, patience=5, repeat=5, seed=0, seq_maxlen=50, test_time=1, verbose=False)
+2021-Feb-01 17:13 [INFO ] Iter=0 Epoch=0010 Val HR(5/10/20)=0.4383/0.5321/0.6207 NDCG(5/10/20)=0.3326/0.3630/0.3854
+2021-Feb-01 17:17 [INFO ] Iter=0 Epoch=0020 Val HR(5/10/20)=0.4371/0.5330/0.6265 NDCG(5/10/20)=0.3324/0.3634/0.3871
+2021-Feb-01 17:21 [INFO ] Iter=0 Epoch=0030 Val HR(5/10/20)=0.4344/0.5283/0.6251 NDCG(5/10/20)=0.3308/0.3611/0.3856
+2021-Feb-01 17:25 [INFO ] Iter=0 Epoch=0040 Val HR(5/10/20)=0.4392/0.5311/0.6277 NDCG(5/10/20)=0.3327/0.3626/0.3871
