@@ -1,5 +1,5 @@
 # RecBaselines
-This is a PyTorch Implementations of some Recommendation System papers
+This is a PyTorch implementations of some Recommendation System papers
 
 ## Requirements
 * scipy==1.1.0
