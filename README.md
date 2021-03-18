@@ -1,7 +1,23 @@
 # RecBaselines
 PyTorch Implementations of some Recommendation System papers
 
-# Dataset
+# Requirements
+scipy==1.1.0
+
+networkx==2.1
+
+pandas==0.23.4
+
+numpy==1.15.1
+
+tqdm==4.26.0
+
+joblib==1.0.1
+
+torch==1.8.0
+
+
+# Data
 Yelp: https://www.kaggle.com/yelp-dataset/yelp-dataset
 
 # Papers
