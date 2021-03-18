@@ -19,6 +19,7 @@ python run_bprmf.py
 * Yelp: https://www.kaggle.com/yelp-dataset/yelp-dataset
 
 ## Model & Paper
+This repo contains the following models:
 * BPRMF: https://arxiv.org/abs/1205.2618
 * NeuMF: https://arxiv.org/abs/1708.05031
 * GRec: https://dl.acm.org/doi/abs/10.1145/3308558.3313488
