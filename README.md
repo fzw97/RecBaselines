@@ -16,7 +16,7 @@ python run_bprmf.py
 ```
 
 ## Data
-* Yelp: https://www.kaggle.com/yelp-dataset/yelp-dataset
+Yelp: https://www.kaggle.com/yelp-dataset/yelp-dataset
 
 ## Model & Paper
 This repo contains the following models:
