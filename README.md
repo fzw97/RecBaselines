@@ -9,6 +9,12 @@ This is a PyTorch Implementations of some Recommendation System papers
 * joblib==1.0.1
 * torch==1.8.0
 
+## Run the demo
+```bash
+cd runs
+python run_bprmf.py
+```
+
 ## Data
 * Yelp: https://www.kaggle.com/yelp-dataset/yelp-dataset
 
