@@ -18,19 +18,21 @@ python run_bprmf.py
 Yelp: https://www.kaggle.com/yelp-dataset/yelp-dataset
 
 ## Results
-We followed the evaluation strategy in SASRec. Specifically, for each user, we randomly sample 100 negative items and rank these items with the ground-truth item. HR and NDCG are estimated based on the ranking results. 
+
+We followed the Leave-One-Out evaluation strategy in SASRec. Specifically, for each user, we randomly sample 100 negative items and rank these items with the ground-truth item. HR and NDCG are estimated based on the ranking results. 
 
 | Test Result |  Recall@10 |  NDCG@10   |
 | ----------- | ---------- | ---------- |
 | BPRMF       | 76.51±0.26 | 55.77±0.16 |
-| NeuMF       |  |  | 
-| GRec        |  |  | 
-| DGRec       |  |  | 
-| SocialMF    |  |  |  
-| SoRec       |  |  | 
-| LightGCN    |  |  | 
-| SASRec      |  |  | 
-| TransRec    |  |  | 
+| NeuMF       | 79.35±0.12 | 59.06±0.24 | 
+| GRec        | 81.55±0.17 | 55.74±0.18 | 
+| DGRec       | 86.57±0.18 | 63.55±0.26 | 
+| SocialMF    | 76.27±0.28 | 53.42±0.21 |  
+| SoRec       | 81.45±0.04 | 58.15±0.07 | 
+| LightGCN    | 84.39±0.07 | 60.80±0.19 | 
+| SASRec      | 81.66±0.08 | 57.21±0.37 | 
+| ASASRec     | 84.53±0.04 | 60.53±0.09 | 
+| TransRec    | 80.19±0.20 | 64.00±0.15 | 
 
 
 ## Model & Paper
