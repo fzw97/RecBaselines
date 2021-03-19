@@ -45,6 +45,7 @@ This repo contains the following models:
 * SoRec: https://dl.acm.org/doi/abs/10.1145/1458082.1458205
 * LightGCN: https://dl.acm.org/doi/abs/10.1145/3397271.3401063
 * SASRec: https://arxiv.org/abs/1808.09781
+* ASASREec: https://dl.acm.org/doi/10.1145/3397271.3401264
 * TransRec: https://dl.acm.org/doi/abs/10.1145/3109859.3109882
 
 
